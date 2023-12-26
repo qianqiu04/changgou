@@ -1,0 +1,15 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: eureka-server9999
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+    fetch-registry: true     # 需不需要从服务器上抓取服务列表（服务器本身不需要抓取）
+    register-with-eureka: true # 需不需要注册到服务器上（服务器本身不需要注册）
+  instance:
+    prefer-ip-address: true  #尽量用IP地址来注册服务，不要用服务名
