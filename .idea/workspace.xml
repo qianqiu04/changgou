@@ -5,24 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f10aafba-7af8-4249-ba2a-999e91ece4df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/changgou_common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/BCrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/CacheKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/ChineseUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/RandomValueUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/StatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_eureka8888/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_eureka8888/src/main/java/com/guigu/qianqiu/EurekaServerApplication8888.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_eureka8888/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_eureka9999/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_eureka9999/src/main/java/com/guigu/qianqiu/EurekaServerApplication9999.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_eureka9999/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou_common_db/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou_service/changgou_service_goods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou_service_api/changgou_service_goods_api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou_service_api/changgou_service_goods_api/src/main/java/com/guigu/qianqiu/entity/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou_common/src/main/java/com/guigu/qianqiu/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou_service_api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou_service_api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +44,9 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2a297PFj1RI9n2M5LJ80PLqS9cF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -70,7 +60,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/畅购项目实战/后端/changgou/springboot-changgou/changgou_common/src/main/java/com/guigu/qianqiu/entity",
+    "last_opened_file_path": "E:/畅购项目实战/后端/changgou/springboot-changgou/changgou_service_api/changgou_service_goods_api/src/main/java/com/guigu/qianqiu/entity",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,13 +68,14 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "5383d0f26d134ef701fdca6259e3593c",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "5e7138479079b850a713985f28360af4",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\畅购项目实战\后端\changgou\springboot-changgou\changgou_service_api\changgou_service_goods_api\src\main\java\com\guigu\qianqiu\entity" />
       <recent name="E:\畅购项目实战\后端\changgou\springboot-changgou\changgou_common\src\main\java\com\guigu\qianqiu\entity" />
     </key>
   </component>
@@ -99,6 +90,8 @@
       <workItem from="1703505642918" duration="1781000" />
       <workItem from="1703563063988" duration="598000" />
       <workItem from="1703574073195" duration="7647000" />
+      <workItem from="1703582506085" duration="1519000" />
+      <workItem from="1703586792016" duration="5691000" />
     </task>
     <servers />
   </component>
@@ -109,5 +102,9 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

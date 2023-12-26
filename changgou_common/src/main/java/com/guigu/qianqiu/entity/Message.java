@@ -1,7 +1,7 @@
 package com.guigu.qianqiu.entity;
 
 import java.io.Serializable;
-
+import com.alibaba.fastjson.annotation.JSONField;
 /*****
  * @Author: www.itheima.com
  * @Description: entity:MQ消息封装

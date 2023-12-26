@@ -7,18 +7,23 @@
         <groupId>com.guigu.springboot.qianqiu</groupId>
         <artifactId>springboot-changgou</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>changgou_service</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>changgou_service_goods</module>
-    </modules>
+    <artifactId>changgou_service_goods_api</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+
+        <dependency>
+            <groupId>com.guigu.springboot.qianqiu</groupId>
+            <artifactId>changgou_common</artifactId>
+        </dependency>
+
+    </dependencies>
 
 </project>
