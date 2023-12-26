@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f10aafba-7af8-4249-ba2a-999e91ece4df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_service_api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou_web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou_eureka/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou_eureka/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +29,7 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": -1
+  "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2a297PFj1RI9n2M5LJ80PLqS9cF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,7 +51,8 @@
     "project.structure.last.edited": "SDK Location",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "ssh.settings",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "5383d0f26d134ef701fdca6259e3593c",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,10 +65,17 @@
       <option name="presentableId" value="Default" />
       <updated>1693999066483</updated>
       <workItem from="1703505642918" duration="1781000" />
+      <workItem from="1703563063988" duration="598000" />
+      <workItem from="1703574073195" duration="1658000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>
